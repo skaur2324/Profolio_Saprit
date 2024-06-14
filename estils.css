@@ -291,7 +291,7 @@ position: absolute;
 inset: -10px 60px;
 background: linear-gradient(315deg, #00ccff, #d40d44);
 transition: 0.5s;
-animation: circle 4s linear infinite;
+animation: circle 4s  forwards;
 }
 .circle:hover::before{
 inset:-20px 0px;
@@ -377,9 +377,8 @@ color:white;
 #education{
    width: 96%;
    background-color: ;
-   padding: 0.5rem;
-   padding-bottom: 3rem;
-   margin: 0 auto;
+   padding: 3.5rem;
+   padding-bottom: 4rem;
    float: left;
    overflow: hidden;
    }
@@ -395,27 +394,25 @@ color:white;
    
    .curso{
    position: relative;
-   padding-bottom: 1rem;
-   width: 43%;
+   width: 94%;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    gap: 1rem;
    padding: 0.2rem;
-   padding-left: 1rem;
    background-color: ;
    border: 4px solid #1D71B8;
    border-radius: 10px;
    position: relative;
-   margin-left: 3.125rem;
    float:left;
    color: black;
    text-align: center;
+   margin: 0 auto;
    }
 
-   .curso h2{
+   .curso li{
       color: #1D71B8;
-      font-size: 35px;
+      font-size: 28px;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
 
@@ -427,14 +424,12 @@ color:white;
 
    #experiencia{
       width: 96%;
-      height: 57rem;
       background-color: ;
-      padding: 0.5rem;
-      margin: 0 auto;
+      padding: 3.5rem;
+      padding-bottom: 4rem;
       float: left;
       overflow: hidden;
       }
-      
       #experiencia h1{
       color: #1D71B8;
       margin-bottom: 1.25rem;
@@ -445,33 +440,33 @@ color:white;
       
       
       .empresa{
-      position: relative;
-      width: 43%;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding-left: 1rem;
-      padding-bottom: 2rem;
-      background-color: ;
-      border: 4px solid #1D71B8;
-      border-radius: 10px;
-      position: relative;
-      margin-left: 3.125rem;
-      float:left;
-      color: black;
-      text-align: center;
-      }
+         position: relative;
+         width: 94%;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 1rem;
+         padding: 0.2rem;
+         background-color: ;
+         border: 4px solid #1D71B8;
+         border-radius: 10px;
+         position: relative;
+         float:left;
+         color: black;
+         text-align: center;
+         margin: 0 auto;
+         }
    
       .empresa h2{
          color: #1D71B8;
-         font-size: 35px;
+         font-size: 30px;
          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
    
       .empresa p{
          font-size: 25px;
          font-family:Arboria;
+         margin-bottom: 10px;
       }
 
       .empresa li{
@@ -481,10 +476,7 @@ color:white;
          font-family:Arboria;
       }
 
-      .empresa.uno{
-         padding-bottom: 2rem;
-      }
-
+    
 
 
 
@@ -955,7 +947,7 @@ font-family:Arboria;
    inset: -10px 60px;
    background: linear-gradient(315deg, #00ccff, #d40d44);
    transition: 0.5s;
-   animation: circle 4s linear infinite;
+   animation: circle 4s forwards;
    }
    .circle:hover::before{
    inset:-20px 0px;
@@ -1080,7 +1072,7 @@ font-family:Arboria;
      
       }
 
-      .curso h2{
+      .curso li{
          color: #1D71B8;
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
@@ -1666,7 +1658,7 @@ color: #1D71B8;
    inset: -10px 60px;
    background: linear-gradient(315deg, #00ccff, #d40d44);
    transition: 0.5s;
-   animation: circle 4s linear infinite;
+   animation: circle 4s forwards;
    }
    .circle:hover::before{
    inset:-20px 0px;
@@ -1752,7 +1744,7 @@ color: #1D71B8;
    
    #education{
       width: 100%;
-      height: 880px;
+      height: 730px;
       background-color: ;
       padding: 0.5rem;
       margin: 0 auto;
@@ -1767,26 +1759,24 @@ color: #1D71B8;
       }
 
       .curso{
-      position: relative;
-      height: 14rem;
-      width: 96%;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding-bottom: 1em;
-      padding-left: 1rem;
-      background-color: ;
-      border: 4px solid #1D71B8;
-      border-radius: 10px;
-      position: relative;
-      margin-left: 3.125rem;
-      float:left;
-      color: black;
-      margin: 10px;
-      }
+         position: relative;
+         width: 94%;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 1rem;
+         padding: 0.2rem;
+         background-color: ;
+         border: 4px solid #1D71B8;
+         border-radius: 10px;
+         position: relative;
+         float:left;
+         color: black;
+         text-align: center;
+         margin: 0 auto;
+         }
 
-      .curso h2{
+      .curso li{
          color: #1D71B8;
          font-size: 18px;
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1808,11 +1798,11 @@ color: #1D71B8;
 
       #experiencia{
          width: 100%;
-         height: 47rem;
+         height: 32rem;
          background-color: ;
          padding: 0.5rem;
          margin: 0 auto;
-         padding-bottom: 2rem;
+         padding-bottom: 0rem;
       
          }
          
@@ -1827,21 +1817,20 @@ color: #1D71B8;
 
          .empresa{
             position: relative;
-            width: 96%;
+            width: 94%;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             gap: 1rem;
-            padding-bottom: 1em;
-            padding-left: 1rem;
+            padding: 0.2rem;
             background-color: ;
             border: 4px solid #1D71B8;
             border-radius: 10px;
             position: relative;
-            margin-left: 3.125rem;
             float:left;
             color: black;
-            margin: 10px;
+            text-align: center;
+            margin: 0 auto;
             }
       
             .empresa h2{
@@ -1850,13 +1839,6 @@ color: #1D71B8;
                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
       
-            .empresa.uno{
-     
-            }
-      
-            .empresa.dos{
-               height: 13rem;
-            }
 
             .empresa p{
                font-family: Arboria;
@@ -2007,7 +1989,7 @@ box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
    max-width: 0 auto;
    top: 20px;
    margin: 0 auto;
-   margin-bottom: 10px;
+   margin-bottom: 25px;
    margin-top: 10px;
  }
 
