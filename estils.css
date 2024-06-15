@@ -131,8 +131,7 @@ nav ul li a:hover{
    width: 96%;
    font-size: 25px;
    text-align: center;
-   font-family: Montserrat ;
-   font-weight: 200;
+   
 }
 
 /*Sobre mi*/        
@@ -252,13 +251,12 @@ nav ul li a:hover{
    position: relative;
    margin-left: 3.125rem;
    float:left;
-   color:white;
+   color:white;s
 }
 
 .container li{
    color: black;
    font-size: 22px;
-   font-family:Arboria;
 }
 
 #education{
@@ -299,12 +297,10 @@ nav ul li a:hover{
 .curso li{
    color: #1D71B8;
    font-size: 28px;
-   font-family:Helvetica, sans-serif;
 }
 
 .curso p{
    font-size: 25px;
-   font-family:Helvetica, sans-serif;
 }
 
 #experiencia{
@@ -345,14 +341,10 @@ nav ul li a:hover{
 .empresa h2{
    color: #1D71B8;
    font-size: 30px;
-   font-family:  Helvetica, sans-serif;
-   font-weight: 300;
 }
    
 .empresa p{
    font-size: 25px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 300;
    margin-bottom: 10px;
 }
 
