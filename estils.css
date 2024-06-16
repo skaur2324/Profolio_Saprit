@@ -138,7 +138,7 @@ canvas {
 
 #about p{
     font-size: 26px;
-    text-align: center;
+    text-align: justify;
     margin-top: 60px;
     color: #1788ae;
 }
@@ -706,7 +706,7 @@ canvas {
 
 #about p{
     font-size: 22px;
-    text-align: center;
+    text-align: justify;
     margin-top: 50px;
     color: #1788ae;
 }
@@ -1294,7 +1294,7 @@ canvas{
 
 #about p{
     font-size: 15px;
-    text-align: center;
+    text-align: justify;
     color: #1788ae;
 }
 
