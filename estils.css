@@ -469,6 +469,41 @@ nav ul li a {
     font-weight: bold;
 }
 
+
+#contacte{
+    width: 100%;
+    padding-bottom: 30px;;
+    overflow: hidden;
+    background-color: ;
+  }
+  
+  #contacte h1{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: #1D71B8;
+    margin-top: 10px;
+
+ }
+  
+  #contacte p{
+    text-align: center;
+    font-size: 30px;
+    margin: 8px;
+
+  }
+  
+  #contacte.linia{
+    width: 400px;
+    height: 10px;
+    background-color: #1D71B8;
+    max-width: 0 auto;
+    top: 20px;
+    margin: 0 auto;
+
+ }
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -594,7 +629,7 @@ form button:hover {
 
     nav{
         width: 100%;
-        height: 50px;
+        height: 80px;
         background-color: black;
         position: fixed;
         line-height: 50px;
@@ -863,6 +898,41 @@ form button:hover {
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
  }
 
+ #contacte{
+    width: 100%;
+    height: 300px;
+    padding-top: 25px;
+    overflow: hidden;
+  
+ }
+ 
+ #contacte h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #1D71B8;
+ }
+  
+ #contacte p{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 200;
+    margin-top: -5px;
+ }
+  
+ #contacte .linia{
+    width: 400px;
+    height: 8px;
+    background-color: #1D71B8;
+    max-width: 0 auto;
+    top: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+
  footer {
     text-align: center;
     padding: 1rem 0;
@@ -873,6 +943,11 @@ form button:hover {
 }
 
 @media screen and (max-width:480px){
+
+    body{
+        overflow: hidden;
+    }
+
     label .menu {
         float: right;
         position: fixed;
@@ -1391,6 +1466,41 @@ form button:hover {
  
  .cards .info .btn:hover{
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+ }
+
+ #contacte{
+    width: 100%;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: ;
+    margin-top: 250px;
+ }
+  
+ #contacte h1{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: px;
+    font-weight: bolder;
+    color: #1D71B8;
+ }
+  
+ #contacte p{
+    text-align: center;
+    font-size: 14px;
+    font-family:Helvetica, sans-serif;
+    font-weight: 200;
+    color: black;
+ }
+  
+ #contacte .linia{
+    width: 300px;
+    height: 5px;
+    background-color: #1D71B8;
+    max-width: 0 auto;
+    top: 20px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
  }
  
  

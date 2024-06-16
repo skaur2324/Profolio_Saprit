@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="estils.css">
 </head>
 <body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkbox = document.querySelector('label input[type="checkbox"]');
+            const links = document.querySelectorAll('label ul a');
+    
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    checkbox.checked = false;
+                });
+            });
+        });
+    </script>
     <nav>
         <ul>
             <li><a href="#about">Sobre Mi</a></li>
@@ -382,6 +395,16 @@
 
     
     </main>
+
+    <!--Contacte-->
+    <div id="contacte">
+        <h1>Contacto</h1>
+        <p>+34 602 314 402</p>
+        <p>sapritkaur610@gmail.com</p>
+        <p>Avinguda de cornellá, 119</p>
+        <p>08950 Esplugues de llobregat</p>
+        <div class="linia"></div>
+    </div>
 
     <footer>
         <p>&copy; 2024 Saprit. All rights reserved.</p>
