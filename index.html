@@ -1,47 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>PORTFOLIO</title>
-   <link rel="stylesheet" href="estils.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="estils.css">
 </head>
 <body>
-    
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const checkbox = document.querySelector('label input[type="checkbox"]');
-            const links = document.querySelectorAll('label ul a');
-    
-            links.forEach(link => {
-                link.addEventListener('click', function() {
-                    checkbox.checked = false;
-                });
-            });
-        });
-    </script>
-
-
     <nav>
-        <div class="logo">Portfolio</div>
         <ul>
-            <li>
-                <a href="#">SOBRE MI</a>
-            </li>
-            <li>
-                <a href="#skills">HABILIDADES</a>
-            <li>
-            <li>
-                <a href="#wrappers">PROYECTOS</a>
-            </li>
-            <li>
-                <a href="#contacte">CONTACTO</a>
-            </li>  
-             <div class="clear"></div>
+            <li><a href="#about">Sobre Mi</a></li>
+            <li><a href="#education">Formación</a></li>
+            <li><a href="#wrappers">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
-     </nav>
-
+    </nav>
 
     <label>
         <input type="checkbox">
@@ -65,95 +38,123 @@
             </a>
         </ul>
     </label>
+    <header>
+        
+        <div class="hero">
+            <h1>Bienvenida a mi Portfolio</h1>
+            <p>Descubre mi trabajo y experiencia.</p>
+            <h2>Saprit Kaur</h2>
+        </div>
+        <canvas id="canvas"></canvas>
+
+        <a href="#" class="animated-button">Click Me</a>
+
+        
+    </header>
+
+   
+
+  
 
     
-    <!--Sobre mi-->
+        
 
-    <div id="nombre">
-        <div class="circle">
-            <div class="content"></div>
-       </div>
-        <h1>Saprit Kaur</h1>
-
-        <h2>Diseñadora gráfica</h2>
-        <p>Creativa y apasionada diseñadora gráfica en la creación de identidades visuales impactantes y soluciones gráficos innovadoras. Mi enfoque combina la creatividad con la funcionalidad, asegurando que cada diseño no solo sea estéticamente agradable, sino también efectivo en cumplir los objetivos del cliente. Con una fuerte competencia en Adobe Creative Suite y enfoque centrado en el usuario, busco colaborar en proyectos desafiantes que requieran una mezcla de creatividad y estrategia.</p>
-   
-    </div>
-
-
-<!--Habilidades-->
-    <div id="skills">
-        <div class="container habilidades"> 
-            <h1>Habilidades</h1>         
-                <li>Sociabilidad</li>
-                <li>Creatividad</li>
-                <li>Compromiso</li>  
-                <li>Responsabilidad</li>  
-                <li>Trabajo en equipo</li>
-                <li>Flexabilidad</li>
-                <li>Puntualidad</li>        
-        </div>
-
-        <div class="container programas">
-            <h1>Programas</h1>          
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Indesign</li>
-                <li>Adobe Premiere Pro</li>
-                <li>Adobe After effects</li>
-                <li>Adobe XD</li>     
-        </div>
-
-        <div class="container idiomas">         
-            <h1>Idiomas</h1>         
-                <li>Catalán</li>
-                <li>Castellano</li>
-                <li>Inglés</li>   
-        </div>
-
-    </div>
-
-<!--Formación-->
-    <div id="education">
-        <h1>Formación</h1>
-
-        <div class="curso">     
-            <li>CFGM Preimpresión digital <br> 2020-2022</li> 
-            <p>IFP Antoni Algueró<br>Sant Just Deserven</p>          
-                <br>
-            <li>CFGS Diseño y Edición de Publicaciones Impresas y Multimedia<br> 2022-2024</li> 
-            <p>IFP Antoni Algueró<br>Sant Just Deserven</p>          
-        </div>
-    </div>
-
-
-<!--Experiencia-->
-    <div id="experiencia">
-        <h1>Experiencia laboral</h1>
-
-        <div class="empresa">     
-            <h2>Pirétols</h2> 
-            <p><b>2022 <br>Cornellá de llobregat</b></p>  
-            <li><b>Identidades Visuales:</b>Desarrollé identidades visuales completas para pequeñas y medianas empresas, incluyendo logotipos, tarjetas de visita, papelería y material promocional.</li>
-            <li><b>Materiales Promocionales:</b> Diseñé flyers, posters, banners para eventos y promociones.</li>
-            <li><b>Edición y Retoque Fotográfico:</b> Realicé edición y retoque fotográfico para catálogos y publicaciones, mejorando la calidad visual de las imágenes y asegurado su coherencia con la identidad de la marca.</li>
-            <li><b>Colaboración con Clientes:</b> Trabajé directamente con clientes para comprender sus necesidades y objetivos, traduciéndolos en soluciones visuales efectivas. 
-            <li><b>Creación de Contenido para Redes Sociales:</b> Produje contenido visual atractivo para plataformas de redes sociales como Instagram.</li>
-
-                <br>
-             
-            <h2>Ayuntamiento de Sants Vicenç dels Horts</h2> 
-            <p><b>2023-2024<br>Sants Vicenç dels Horts</b></p> 
-            <li>Diseñé flyers, dípticos, trípticos, pósters promocionales para diversos eventos municipales y programas de servicios públicos.</li>         
-        </div>
-    </div>
  
 
-<!--Trabajos-->
+    
+
+    <main>
+
+        
+        <!-- Your main content sections -->
+        <section id="about" class="section">
+        <p>¡Hola! Soy Saprit Kaur, Creativa y apasionada diseñadora gráfica en la creación de identidades visuales impactantes y soluciones gráficos innovadoras. Mi enfoque combina la creatividad con la funcionalidad, asegurando que cada diseño no solo sea estéticamente agradable, sino también efectivo en cumplir los objetivos del cliente. Con una fuerte competencia en Adobe Creative Suite y enfoque centrado en el usuario, busco colaborar en proyectos desafiantes que requieran una mezcla de creatividad y estrategia..</p>
+    </section>
+
+
+    <div id="formacion">
+  
+        <section id="education">
+            <h2>Formación</h2>
+        </section>
+        <div class="education uno"> 
+            <h2>
+                CFGM Preimpresión digital 2020-2022  
+            </h2>
+            <p>
+                IFP Antoni Algueró
+                    <br>
+                Sant Just Deserven
+            </p>
+        </div>
+        <div class="education dos "> </div>
+        <div class="education tres"> </div>
+        <div class="education cuatro"> </div>
+        <div class="education cinco"> 
+            <h2>
+                CFGS Diseño y Edición de Publicaciones Impresas y Multimedia
+                <br>2022-2024
+            </h2>
+            <p>
+                IFP Antoni Algueró
+                    <br>
+                Sant Just Deserven
+            </p>
+        </div>
+
+    </div>
+
+    
+
+    <div id="laboral">
+  
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+        </section>
+        <div class="experiencia uno"> 
+            <h2>
+                    Pirétols
+                <br>
+                    2022
+                <br>
+                    Cornellá de llobregat  
+            </h2>
+            <li>Identidades Visuales:Desarrollé identidades visuales completas para pequeñas y medianas empresas, incluyendo logotipos, tarjetas de visita, papelería y material promocional.</li>
+            <li>Materiales Promocionales: Diseñé flyers, posters, banners para eventos y promociones.</li>
+            <li>Edición y Retoque Fotográfico: Realicé edición y retoque fotográfico para catálogos y publicaciones, mejorando la calidad visual de las imágenes y asegurado su coherencia con la identidad de la marca.</li>
+            <li>Colaboración con Clientes: Trabajé directamente con clientes para comprender sus necesidades y objetivos, traduciéndolos en soluciones visuales efectivas.</li>
+            <li>Creación de Contenido para Redes Sociales: Produje contenido visual atractivo para plataformas de redes sociales como Instagram.</li>
+            
+        </div>
+        <div class="experiencia dos "> </div>
+        <div class="experiencia tres"> </div>
+        <div class="experiencia cuatro"> </div>
+        <div class="experiencia cinco"> 
+            <h2>
+                Ayuntamiento de Sants Vicenç dels Horts
+                    <br>
+                nov 2023-may 2024
+                    <br>
+                    Sants Vicenç dels Horts 
+            </h2>
+            <p>
+                Diseñé flyers, dípticos, trípticos, pósters promocionales para diversos eventos municipales y programas de servicios públicos.
+            </p>
+        </div>
+
+    </div>
+
+
+
+
+        <section class="projects">
+            <h2>Mis Proyectos</h2>
+        </section>
+
+
+        <!--Trabajos-->
     <div id="wrappers">
-        <h1>Mis proyectos</h1>
+       
         <div class="cards">
             <img src="img/rollup.jpg" alt="">
             <div class="info">
@@ -371,22 +372,21 @@
         </div>
  
     </div>
+    
 
-<!--Contacte-->
-    <div id="contacte">
-        <h1>Contacto</h1>
-        <p>+34 602 314 402</p>
-        <p>sapritkaur610@gmail.com</p>
-        <p>Avinguda de cornellá, 119</p>
-        <p>08950 Esplugues de llobregat</p>
-        <div class="linia"></div>
-    </div>
+        
+    
 
+        
+        
 
-<!--Footer-->
-    <div id="footer">
-        <h3>@Copyright 2023. Saprit</h3>
-    </div>
-   
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saprit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
