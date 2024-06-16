@@ -944,9 +944,7 @@ form button:hover {
 
 @media screen and (max-width:480px){
 
-    body{
-        overflow: hidden;
-    }
+  
 
     label .menu {
         float: right;
