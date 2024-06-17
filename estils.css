@@ -58,12 +58,14 @@ nav ul li a:active{
 header {
     background: #000000;
     color: #ffffff;
-    padding: 1rem 0;
+    padding: 0;
     text-align: center;
     position: relative;
     height: 600px;
     top: 50px;
 }
+
+
 
 .hero {
     padding: 2rem;
@@ -78,10 +80,11 @@ header {
 .hero p {
     margin: 1rem 0 0;
     font-size: 2rem;
+    width: 94%;
 }
 
 .hero h2{
-    font-size: 5rem;
+    font-size: 7rem;
     margin-top: 80px;
 }
 
@@ -137,10 +140,11 @@ canvas {
 }
 
 #about p{
-    font-size: 26px;
+    font-size: 20px;
     text-align: justify;
     margin-top: 60px;
     color: #1788ae;
+   
 }
 
 .section {
@@ -391,13 +395,13 @@ canvas {
 }
  
 .cards {
-    width: 16.25rem;
-    height: 22.5rem;
+    width: 13rem;
+    height: 19rem;
     display: inline-flex; /* Use flexbox for alignment */
     flex-direction: column; /* Column direction */
     align-items: center; /* Center items */
     justify-content: space-between; /* Evenly space children */
-    padding: 3rem;
+    padding: 0.5rem;
     background: #fff;
     position: relative;
     margin: 1rem;
@@ -700,12 +704,15 @@ canvas {
     top: 50px;
 }
 
+
+
 #about{
     padding: 2rem;
+    background-color: ;
 }
 
 #about p{
-    font-size: 22px;
+    font-size: 18px;
     text-align: justify;
     margin-top: 50px;
     color: #1788ae;
@@ -944,8 +951,8 @@ canvas {
 }
  
 .cards{
-    width: 16.25rem;
-    height: 22.5rem;
+    width: 13rem;
+    height: 19rem;
     display: inline-block;
     padding: 3rem;
     background: #fff;
@@ -1513,8 +1520,8 @@ canvas{
 }
  
 .cards{
-    width: 16.25rem;
-    height: 22.5rem;
+    width: 10rem;
+    height: 16rem;
     display: inline-block;
     padding: 3rem;
     background: #fff;
