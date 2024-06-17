@@ -1505,15 +1505,37 @@ canvas{
     color: #639;
     color: #639;
     top: 70px;
+    margin-bottom: 60px;
 }
   
-#wrappers{
+#wrappers {
     width: 100%;
     text-align: center;
     overflow: hidden;
+    background-color: white;
     position: relative;
-    top: 90px;
+    padding-top: 2rem; /* Add padding to the top for spacing */
+    overflow: hidden;
+    padding-bottom: 2rem;
 }
+ 
+.cards {
+    width: 13rem;
+    height: 19rem;
+    display: inline-flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Column direction */
+    align-items: center; /* Center items */
+    justify-content: space-between; /* Evenly space children */
+    padding: 0.5rem;
+    background: #fff;
+    position: relative;
+    margin: 1rem;
+    border: 5px solid #639;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+ }
+
  
 #wrappers h1{
     color: #1D71B8;
@@ -1622,10 +1644,9 @@ canvas{
 /*contacto*/
 #contacte{
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
     overflow: hidden;
-    background-color: ;
-    margin-top: 90px;
+    background-color: red;
 }
   
 #contacte h1{
