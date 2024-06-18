@@ -58,11 +58,13 @@ nav ul li a:active{
 header {
     background: #000000;
     color: #ffffff;
-    padding: 40px;
     text-align: center;
     position: relative;
-    height: 600px;
-    top: 50px;
+    height: 650px;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+
 }
 
 header h2{
@@ -72,27 +74,30 @@ header h2{
 
 header p{
     font-size: 22px;
-    
+    width: 80%;
+    margin: 0 auto;
+    bottom: 30px;   
 }
 
 .hero {
     padding: 2rem;
+    background-color:;
 }
 
 .hero h1 {
     margin: 0;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: 80px;
 }
 
 .hero p {
     margin: 1rem 0 0;
     font-size: 2.5rem;
-    width: 94%;
+    margin: 0 auto;
 }
 
 .hero h2{
-    font-size: 7rem;
+    font-size: 4rem;
     margin-top: 80px;
 }
 
@@ -145,6 +150,7 @@ canvas {
 /*sobre mi*/
 #about{
     padding: 2rem;
+    overflow: hidden;
 }
 
 #about p{
@@ -155,36 +161,15 @@ canvas {
    
 }
 
-.section {
-    padding: 2rem 0;
-    border-bottom: 1px solid #ddd;
-}
 
-.work-section h2 {
-    text-align: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 0.2em 0.5em;
-    border: 2px solid #1788ae;
-    border: 2px solid #1788ae;
-    border-radius: 0 0 8px 8px;
-    border-top: none;
-    font-size: 2.5em;
-    background-color: var(--light);
-    position: relative;
-    z-index: 5;
-    color: #1788ae;
-    color: #1788ae;
-    top: 50px;
-}
 
 
 /*Formación*/
 #formacion{
     width:100%;
-    height: 500px;   
+    height: 620px; 
+    background-color: ;
+    overflow: hidden;
 }
 
 #education h2 {
@@ -203,83 +188,38 @@ canvas {
     z-index: 5;
     color: #fc815c;;
     color: #fc815c;;
-    top: 50px;
+    top: 100px;
 }
 
 .education{
-    width: 390px;
-    height: 180px;
+    width: 80%;
+    padding: 20px;  
     background-color: transparent;
     margin: 0 auto;
     position: relative;
-    float: left; 
-       
-}
-
-.education.uno{
-    top: 130px;
     border: solid 3px #fc815c;
     text-align: center;
     border-radius: 8px;
-    margin-left: 130px;  
+    top: 130px;    
 }
 
-.education.uno h2{
+.education h2{
     color: #fc815c;
     margin-top: 30px;
     font-size: 25px;
 }
 
-.education.uno p{
+.education p{
     font-size: 18px;
 }
-
-.education.dos{
-    height: 2px;
-    width: 70px;
-    background-color: #fc815c;
-    top: 170px;
-}
-
-.education.tres{
-    width: 2px;
-    height: 383px;
-    top: 50px;
-    background-color: #fc815c;
-}
-
-.education.cuatro{
-    height: 2px;
-    width: 70px;
-    background-color: #fc815c;
-    top: 290px;
-}
-
-.education.cinco{
-    top: 150px;
-    background-color: transparent;
-    border: solid 3px #fc815c;
-    text-align: center;
-    border-radius: 8px;
-    height: 240px;
-}
-
-.education.cinco h2{
-    color: #fc815c;
-    margin-top: 30px;
-    font-size: 25px;
-}
-
-.education.cinco p{
-    font-size: 18px;
-}
-
 
 /*Experiencia*/
 #laboral{
-    width:100%;
-    height: 660px;  
-    background-color: ; 
+    width:100%; 
+    height: 750px;
+    background-color: ;
+    top: 0px;
+    overflow: hidden;
 }
 
 #experiencia h2 {
@@ -298,81 +238,53 @@ canvas {
     z-index: 5;
     color: #47afa1;
     color: #47afa1;
+    top: 50px;
 }
 
+
 .experiencia{
-    width: 420px;
-    height: 400px;
+    width: 80%;
+    padding: 20px;  
     background-color: transparent;
     margin: 0 auto;
     position: relative;
-    float: left;       
-}
-
-.experiencia.uno{
-    top: 80px;
-    border: solid 3px #47afa1;;
+    border: solid 3px #47afa1;
+    text-align: center;
     border-radius: 8px;
-    margin-left: 60px;  
-    padding: 20px;
+    top: 80px;           
 }
 
-.experiencia.uno h2{
-    color: #47afa1;;
-    margin-top: 0px;
+
+.experiencia h2{
+    color: #47afa1;
+    margin-top: 30px;
     font-size: 25px;
 }
 
-.experiencia.uno p{
+
+.experiencia p{
     font-size: 18px;
 }
+
 
 .experiencia li{
     margin-left: 10px;
 }
 
-.experiencia.dos{
-    height: 2px;
-    width: 70px;
-    background-color: #47afa1;;
-    top: 180px;
-}
 
-.experiencia.tres{
-    width: 2px;
-    height: 593px;
-    top: 0px;
-    background-color: #47afa1;;
-}
-
-.experiencia.cuatro{
-    height: 2px;
-    width: 70px;
-    background-color: #47afa1;;
-    top: 240px;
-}
-
-.experiencia.cinco{
-    top: 150px;
-    background-color: transparent;
-    border: solid 3px #47afa1;;
-    border-radius: 8px;
-    height: 200px;
-    padding: 20px;
-}
-
-.experiencia.cinco h2{
-    color: #47afa1;;
-    margin-top: 0px;
-    font-size: 25px;
-}
-
-.experiencia.cinco p{
-    font-size: 18px;
-}
 
 
 /*Proyectos*/
+#wrappers {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: ;
+    position: relative;
+    padding-top: 2rem; /* Add padding to the top for spacing */
+    overflow: hidden;
+}
+
 .projects h2 {
     text-align: center;
     width: -webkit-max-content;
@@ -380,7 +292,7 @@ canvas {
     width: max-content;
     margin: 0 auto;
     padding: 0.2em 0.5em;
-    border: 2px solid #639;s;
+    border: 2px solid #639;
     border: 2px solid #639;;
     border-radius: 8px 8px 8px 8px;
     font-size: 2.5em;
@@ -389,22 +301,14 @@ canvas {
     z-index: 5;
     color: #639;
     color: #639;
+    background-color:;
+    margin-bottom: 15px;
 }
 
-#wrappers {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    background-color: white;
-    position: relative;
-    padding-top: 2rem; /* Add padding to the top for spacing */
-    overflow: hidden;
-    padding-bottom: 2rem;
-}
- 
+
 .cards {
-    width: 13rem;
-    height: 19rem;
+    width: 16rem;
+    height: 21rem;
     display: inline-flex; /* Use flexbox for alignment */
     flex-direction: column; /* Column direction */
     align-items: center; /* Center items */
@@ -417,6 +321,7 @@ canvas {
     border-radius: 10px;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
+
  }
  
 .cards:hover {
@@ -497,60 +402,34 @@ canvas {
 /*Contacto*/
 #contacte{
     width: 100%;
-    padding-bottom: 30px;;
     overflow: hidden;
-    background-color: ;
 }
-  
+ 
 #contacte h1{
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-weight: bolder;
     color: #1D71B8;
-    margin-top: 10px;
 }
   
 #contacte p{
     text-align: center;
-    font-size: 24px;
-    margin: 8px;
+    font-size: 22px;
+    color: black;
+    font-weight: 200;
+    margin-top: -5px;
 }
   
-#contacte.linia{
+#contacte .linia{
     width: 400px;
-    height: 10px;
+    height: 8px;
     background-color: #1D71B8;
     max-width: 0 auto;
-    top: 20px;
+    top: 50px;
     margin: 0 auto;
-}
-
-
-/*Formulario*/
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    font-size: 1rem;
-}
-
-form button{
-    padding: 0.75rem;
-    font-size: 1rem;
-    background: #1788ae;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-form button:hover{
-    background: #555;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 
@@ -563,21 +442,16 @@ footer{
     font-size: 20px;
     height: 60px;
     line-height: 60px;
-}
-
-h2{
-    font-size: 2rem;
-    margin: 0 0 1rem;
-}
-
+    overflow: hidden;
 }
 
 
 
-
+}
 
 
 @media screen and (min-width:481px) and (max-width:1024px){
+
 
 /*menu hamburguesa*/
 label{
@@ -621,11 +495,12 @@ nav ul li a:active{
     color: #1788ae;
 }
 
+
 /*header bienvenidas*/
 header {
     background: #000000;
     color: #ffffff;
-    padding: 30px;
+    padding: 35px;
     text-align: center;
     position: relative;
     top: 50px;
@@ -648,7 +523,7 @@ header p{
 .hero h1 {
     margin: 0;
     font-size: 3.5em;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .hero p {
@@ -683,43 +558,6 @@ canvas {
     height: 100%;
 }
 
-.animated-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: linear-gradient(to left, #1595b6, rgba(31, 38, 103, 0.9));
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.animated-button:hover {
-    transform: scale(1.05);
-}
-
-.work-section h2 {
-    text-align: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 0.2em 0.5em;
-    border: 2px solid #1788ae;
-    border: 2px solid #1788ae;
-    border-radius: 0 0 8px 8px;
-    border-top: none;
-    font-size: 2em;
-    background-color: var(--light);
-    position: relative;
-    z-index: 5;
-    color: #1788ae;
-    color: #1788ae;
-    top: 50px;
-}
 
 #about{
     padding: 2rem;
@@ -736,9 +574,9 @@ canvas {
 /*Formación*/
 #formacion{
     width:100%;
-    height: 380px;   
-    padding: 40px;
+    height: 470px;
     background-color: ;
+    overflow: hidden;
 }
 
 #education h2 {
@@ -757,64 +595,30 @@ canvas {
     z-index: 5;
     color: #fc815c;;
     color: #fc815c;;
-    top: 10px;
+    top: 20px;
 }
 
 .education{
-    width: 410px;
-    height: 180px;
+    width: 80%;
     background-color: transparent;
-    margin: 19px;
-    position: relative;
-    float: left;      
-}
-
-.education.uno{
-    top: 60px;
+    position: relative;  
+    top: 40px;
     border: solid 3px #fc815c;
     text-align: center;
     border-radius: 8px;
-    margin-left: 20px;  
+    margin: 0 auto;
+   
 }
 
-.education.uno h2{
+
+
+.education h2{
     color: #fc815c;
     margin-top: 30px;
     font-size: 25px;
 }
 
-.education.uno p{
-    font-size: 18px;
-}
-
-.education.dos{
-    display: none;
-}
-
-.education.tres{
-    display: none;
-}
-
-.education.cuatro{
-    display: none;
-}
-
-.education.cinco{
-    top: 30px;
-    background-color: transparent;
-    border: solid 3px #fc815c;
-    text-align: center;
-    border-radius: 8px;
-    height: 240px;
-}
-
-.education.cinco h2{
-    color: #fc815c;
-    margin-top: 30px;
-    font-size: 25px;
-}
-
-.education.cinco p{
+.education p{
     font-size: 18px;
 }
 
@@ -822,92 +626,12 @@ canvas {
 /*Experiencia*/
 #laboral{
     width:100%;
-    height: 630px;  
     background-color: ; 
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 #experiencia h2 {
-    text-align: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 0.2em 0.5em;
-    border: 2px solid #47afa1;;
-    border: 2px solid #47afa1;;
-    border-radius: 8px 8px 8px 8px;
-    font-size: 2.5em;
-    background-color: var(--light);
-    position: relative;
-    z-index: 5;
-    color: #47afa1;
-    color: #47afa1;
-}
-
-.experiencia{
-    width: 360px;
-    height: 440px;
-    background-color: transparent;
-    margin: 19px;
-    position: relative;
-    float: left;       
-}
-
-.experiencia.uno{
-    top: 40px;
-    border: solid 3px #47afa1;;
-    border-radius: 8px;
-    margin-left: 60px;  
-    padding: 20px;
-}
-
-.experiencia.uno h2{
-    color: #47afa1;;
-    margin-top: 0px;
-    font-size: 25px;
-}
-
-.experiencia.uno p{
-    font-size: 18px;
-}
-
-.experiencia li{
-    margin-left: 10px;
-}
-
-.experiencia.dos{
-    display: none;
-}
-
-.experiencia.tres{
-    display: none;
-}
-
-.experiencia.cuatro{
-    display: none;
-}
-
-.experiencia.cinco{
-    top: 150px;
-    background-color: transparent;
-    border: solid 3px #47afa1;;
-    border-radius: 8px;
-    height: 220px;
-    padding: 20px;
-}
-
-.experiencia.cinco h2{
-    color: #47afa1;;
-    margin-top: 0px;
-    font-size: 25px;
-}
-
-.experiencia.cinco p{
-    font-size: 18px;
-}
-
-/*Proyectos*/
-.projects h2 {
     text-align: center;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -923,27 +647,65 @@ canvas {
     z-index: 5;
     color: #fc815c;;
     color: #fc815c;;
-    top: 50px;
+    top: 0px;
 }
 
+.experiencia{
+    width: 78%;
+    padding: 10px;
+    background-color: transparent;
+    position: relative;  
+    top: 20px;
+    border: solid 3px #fc815c;
+    text-align: center;
+    border-radius: 8px;  
+    margin: 0 auto; 
+}
+
+.experiencia h2{
+    color: #47afa1;;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.experiencia p{
+    font-size: 18px;
+}
+
+.experiencia li{
+    margin-left: 10px;
+}
+
+
+/*Proyectos*/
 #wrappers{
     width: 100%;
     text-align: center;
     overflow: hidden;
-    background-color: white;
+    background-color: ;
     position: relative;
-    top: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
- 
-#wrappers h1{
-    color: #639;
-    top: 2.5rem;
+
+.projects h2 {
     text-align: center;
-    z-index: 1;
-    font-size: 35px;
-    font-family: 'Courier New', Courier, monospace;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0.2em 0.5em;
+    border: 2px solid #639;
+    border: 2px solid #639;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 2em;
+    background-color: var(--light);
+    position: relative;
+    z-index: 5;
+    color: #639;
+    color: #639;
 }
- 
+
 #wrappers .cards h1{
     color: white;
     margin-top: 3.125rem;
@@ -1039,18 +801,16 @@ canvas {
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
 }
 
+
 /*Contacto*/
 #contacte{
     width: 100%;
-    height: 300px;
-    padding-top: 25px;
     overflow: hidden;
-    margin-top: 50px;
 }
  
 #contacte h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 2em;
     margin-bottom: 10px;
     font-weight: bolder;
     color: #1D71B8;
@@ -1071,204 +831,197 @@ canvas {
     max-width: 0 auto;
     top: 50px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-top: 10px;
 }
 
-/*Footer*/
-footer {
+footer{
     text-align: center;
-    padding: 1rem 0;
     background-color: black;
     color: #fff;
     clear: both;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
 }
 
-}
 
+
+}
 
 
 
 @media screen and (max-width:480px){
-    
+   
 /*menu*/
 nav{
     display: none;
 }
 
-/*menu hamburguesa*/
+
 label .menu {
-    float: right;
     position: fixed;
-    right: -100px;
-    top: -100px;
+    top: 0px;
+    right: 0px;
     z-index: 100;
-    width: 200px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
     background: #FFF;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 0% 0% 0% 40%;
     border: 3px solid #1788ae;
-    -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    box-shadow: 0 0 0 0 #1788ae, 0 0 0 0 #1788ae;
     cursor: pointer;
+    border-top: none;
+    border-right: none;
+   
 }
-     
-label .hamburger{
-    position: absolute;
-    top: 135px;
-    left: 50px;
-    width: 30px;
-    height: 2px;
-    background: #1788ae;
-    display: block;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-}
-     
-label .hamburger:after, label .hamburger:before{
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: #1788ae;
-}
-     
-label .hamburger:before{ 
-    top: -10px; 
-}
-     
-label .hamburger:after{ 
-    bottom: -10px; 
-}
-     
-label input{ 
-    display: none; 
-}
-     
-label input:checked + .menu {
-    box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
-    border-radius: 0;
-    border: 5px solid transparent;
-}
-     
-label input:checked + .menu .hamburger {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-     
-label input:checked + .menu .hamburger:after {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    bottom: 0;
-}
-     
-label input:checked + .menu .hamburger:before {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 0;
-}
-     
-label input:checked + .menu + ul{ 
-    opacity: 1;
-}
-     
-label ul {
-    z-index: 200;
+
+
+label .hamburger {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    width: 30px;
+    height: 2px;
+    background: #1788ae;
+    transform: translate(-50%, -50%);
+    transition: .5s ease-in-out;
+}
+
+
+label .hamburger:after,
+label .hamburger:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1788ae;
+    transition: .5s ease-in-out;
+   
+}
+
+
+label .hamburger:before {
+    top: -10px;
+}
+
+
+label .hamburger:after {
+    bottom: -10px;
+}
+
+
+label input {
+    display: none;
+}
+
+
+label input:checked + .menu {
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+    border: 5px solid transparent;
+}
+
+
+
+
+label input:checked + .menu .hamburger {
+    transform: rotate(45deg) translate(-50%, -50%);
+}
+
+
+label input:checked + .menu .hamburger:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+
+label input:checked + .menu .hamburger:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+
+label input:checked + .menu + ul {
+    opacity: 1;
+    pointer-events: auto;
+   
+}
+
+
+label ul {
+    position: fixed;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    -webkit-transition: .25s 0s ease-in-out;
-    transition: .25s 0s ease-in-out;
+    pointer-events: none;
+    transition: .25s ease-in-out;
+    text-align: center;
+    z-index: 200;
+    margin-top: 160px;
+    background-color: ;
 }
-     
-label li{
+
+
+label li {
     font-size: 22px;
-}
-     
-label a {
     margin-bottom: 1em;
-    display: block;
+    background-color: ;
+}
+
+
+label a {
     color: #1788ae;
     text-decoration: none;
 }
-     
+
+
 label a:hover {
     color: #1788ae;
 }
 
-/*heading bienvenidas*/
+
+/*header bienvenidas*/
 header {
     background: #000000;
     color: #ffffff;
-    padding: 17px;
+    padding: 35px;
     text-align: center;
     position: relative;
 }
 
-
-
 header h2{
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
 }
 
 header p{
-    font-size: 16px;   
+    font-size: 16px;
+    
 }
 
-.animated-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: linear-gradient(to left, #1595b6, rgba(31, 38, 103, 0.9));
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: transform 0.2s ease-in-out;
-}
-    
-.animated-button:hover {
-    transform: scale(1.05);
-}
-    
-canvas{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-    
-.hero{
+.hero {
     padding: 2rem;
 }
-    
+
 .hero h1 {
     margin: 0;
-    font-size: 1.8rem;
-    margin-top: 35px;
+    font-size: 2.5em;
 }
-    
+
 .hero p {
     margin: 1rem 0 0;
-    font-size: 1.3rem;
+    font-size: 16px;
 }
-    
+
 .hero h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-top: 80px;
 }
 
 .hero h1, 
@@ -1285,41 +1038,33 @@ canvas{
     100% { color: #e74c3c; } /* Cinnabar */
 }
 
-/*sobre mi*/
-.work-section h2 {
-    text-align: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 0.2em 0.5em;
-    border: 2px solid #1788ae;
-    border: 2px solid #1788ae;
-    border-radius: 0 0 8px 8px;
-    border-top: none;
-    font-size: 1.5em;
-    background-color: var(--light);
-    position: relative;
-    z-index: 5;
-    color: #1788ae;
-    color: #1788ae;
-    top: 0px;
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
+
 #about{
-    padding: 1rem;
+    padding: 2rem;
+    background-color: ;
 }
 
 #about p{
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
+    margin-top: 50px;
     color: #1788ae;
 }
 
 /*Formación*/
 #formacion{
-    width: 100%;
-    height: 500px;  
+    width:100%;
+    height: 380px;
+    background-color: ;
+    overflow: hidden;
 }
 
 #education h2 {
@@ -1332,7 +1077,7 @@ canvas{
     border: 2px solid #fc815c;;
     border: 2px solid #fc815c;;
     border-radius: 8px 8px 8px 8px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color: var(--light);
     position: relative;
     z-index: 5;
@@ -1342,70 +1087,36 @@ canvas{
 }
 
 .education{
-    width: 96%;
-    height: 130px;
+    width: 80%;
     background-color: transparent;
-    margin: 0 auto;
-    position: relative;      
-}
-
-.education.uno{
-    top: 60px;
-    border: solid 3px #fc815c;
-    text-align: center;
-    border-radius: 8px; 
-    width: 86%;
-}
-
-.education.dos{
-   display: none;
-}
-
-.education.tres{
-    display: none;
-}
-
-.education.cuatro{
-    display: none;
-}
-
-.education.cinco{
-    top: 80px;
-    background-color: transparent;
+    position: relative;  
+    top: 45px;
     border: solid 3px #fc815c;
     text-align: center;
     border-radius: 8px;
-    height: 170px;
-    width: 86%;
+    margin: 0 auto;
+   
 }
 
-.education.uno h2{
+
+
+.education h2{
     color: #fc815c;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 18px;
 }
 
-.education.uno p{
-    font-size: 17px;
-}
-
-.education.cinco h2{
-    color: #fc815c;
-    margin-top: 30px;
-    font-size: 18px;
-}
-
-.education.cinco p{
-    font-size: 17px;
+.education p{
+    font-size: 16px;
 }
 
 
-/*Experiencia*/
+/*Formación*/
 #laboral{
-    width: 100%;
-    height: 695px;
+    width:100%;
+    height: 760px;
     background-color: ;
-    padding: 1px;  
+    overflow: hidden;
 }
 
 #experiencia h2 {
@@ -1415,79 +1126,43 @@ canvas{
     width: max-content;
     margin: 0 auto;
     padding: 0.2em 0.5em;
-    border: 2px solid #47afa1;;
-    border: 2px solid #47afa1;;
+    border: 2px solid #fc815c;;
+    border: 2px solid #fc815c;;
     border-radius: 8px 8px 8px 8px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color: var(--light);
     position: relative;
     z-index: 5;
-    color: #47afa1;
-    color: #47afa1;
+    color: #fc815c;;
+    color: #fc815c;;
+    top: 30px;
 }
 
 .experiencia{
-    width: 96%;
+    width: 80%;
     background-color: transparent;
-    margin: 0 auto;
-    position: relative; 
-    padding: 10px;
-     
-}
-
-.experiencia.uno{
-    top: 30px;
-    border: solid 3px #47afa1;;
-    border-radius: 8px; 
-    width: 86%;
-}
-
-.experiencia li{
-    margin-left: 10px;
-}
-
-.experiencia.dos{
-    display: none;
-}
-
-.experiencia.tres{
-    display: none;
-}
-
-.experiencia.cuatro{
-    display: none;
-}
-
-.experiencia.cinco{
-    top: 50px;
-    background-color: transparent;
-    border: solid 3px #47afa1;;
+    position: relative;  
+    top: 45px;
+    border: solid 3px #fc815c;
+    text-align: center;
     border-radius: 8px;
-    height: 185px;
-    width: 86%;
+    margin: 0 auto;
+   
 }
 
-.experiencia.uno h2{
-    color: #47afa1;;
-    margin-top: 0px;
+
+
+.experiencia h2{
+    color: #fc815c;
+    margin-top: 20px;
     font-size: 18px;
 }
 
-.experiencia.uno p{
-    font-size: 17px;
+.experiencia p{
+    font-size: 16px;
 }
 
-.experiencia.cinco h2{
-    color: #47afa1;;
-    margin-top: 0px;
-    font-size: 18px;
-}
-
-.experiencia.cinco p{
-    font-size: 17px;
-}
-
-/*proyectos*/
+/*Proyectos*/
 .projects h2 {
     text-align: center;
     width: -webkit-max-content;
@@ -1495,46 +1170,27 @@ canvas{
     width: max-content;
     margin: 0 auto;
     padding: 0.2em 0.5em;
-    border: 2px solid #639;s;
-    border: 2px solid #639;;
+    border: 2px solid #639;
     border-radius: 8px 8px 8px 8px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color: var(--light);
     position: relative;
     z-index: 5;
     color: #639;
-    color: #639;
-    top: 70px;
-    margin-bottom: 60px;
 }
-  
+
 #wrappers {
     width: 100%;
     text-align: center;
     overflow: hidden;
-    background-color: white;
+    background-color: ;
     position: relative;
-    padding-top: 2rem; /* Add padding to the top for spacing */
     overflow: hidden;
-    padding-bottom: 2rem;
+    float: left;
+
+    
 }
  
-.cards {
-    width: 13rem;
-    height: 19rem;
-    display: inline-flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Column direction */
-    align-items: center; /* Center items */
-    justify-content: space-between; /* Evenly space children */
-    padding: 0.5rem;
-    background: #fff;
-    position: relative;
-    margin: 1rem;
-    border: 5px solid #639;
-    border-radius: 10px;
-    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-    transition: 0.5s ease-in-out;
- }
 
 #wrappers h1{
     color: #1D71B8;
@@ -1550,21 +1206,26 @@ canvas{
     margin-top: 3.125rem;
     text-align: center;
 }
- 
-.cards{
-    width: 15rem;
-    height: 21rem;
-    display: inline-block;
-    padding: 1rem;
+
+.cards {
+    width: 10rem;
+    height: 16rem;
+    display: inline-flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Column direction */
+    align-items: center; /* Center items */
+    justify-content: space-between; /* Evenly space children */
+    padding: 0rem;
     background: #fff;
     position: relative;
-    margin: 0.5rem;
+    margin: 1rem;
     border: 5px solid #639;
     border-radius: 10px;
-    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-}
- 
+    top: 0px;
+ }
+
+
 .cards:hover{
     transform: translateY(20px);
 }
@@ -1640,52 +1301,71 @@ canvas{
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
 }
 
-/*contacto*/
+/*Contacto*/
 #contacte{
     width: 100%;
-    padding-top: 0px;
     overflow: hidden;
     background-color: ;
 }
-  
+ 
 #contacte h1{
     text-align: center;
-    font-size: 22px;
-    margin-bottom: -5px;
+    font-size: 2em;
+    margin-bottom: 10px;
     font-weight: bolder;
     color: #1D71B8;
 }
   
 #contacte p{
     text-align: center;
-    font-size: 18px;
-    font-family:Helvetica, sans-serif;
+    font-size: 16px;
     color: black;
-    margin: 12px;
+    font-weight: 200;
+    margin-top: -8px;
 }
   
 #contacte .linia{
-    width: 300px;
+    width: 250px;
     height: 5px;
     background-color: #1D71B8;
     max-width: 0 auto;
-    top: 20px;
+    top: 50px;
     margin: 0 auto;
-    margin-bottom: 25px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
- 
-/*footer*/
-footer {
+
+footer{
     text-align: center;
-    line-height: 60px;
     background-color: black;
     color: #fff;
     clear: both;
-    margin-top: 0px;
-    height: 60px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
 }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+}    
+
+
+
+
+
+
+
+
+
+
 
 
