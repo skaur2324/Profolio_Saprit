@@ -1463,7 +1463,7 @@ canvas{
     background-color: transparent;
     border: solid 3px #47afa1;;
     border-radius: 8px;
-    height: 140px;
+    height: 185px;
     width: 86%;
 }
 
@@ -1661,7 +1661,7 @@ canvas{
     font-size: 18px;
     font-family:Helvetica, sans-serif;
     color: black;
-    margin-bottom: -12px;
+    margin: 12px;
 }
   
 #contacte .linia{
