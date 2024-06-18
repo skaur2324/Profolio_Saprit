@@ -574,7 +574,7 @@ canvas {
 /*Formación*/
 #formacion{
     width:100%;
-    height: 470px;
+    height: 550px;
     background-color: ;
     overflow: hidden;
 }
@@ -595,14 +595,14 @@ canvas {
     z-index: 5;
     color: #fc815c;;
     color: #fc815c;;
-    top: 20px;
+    top: 100px;
 }
 
 .education{
     width: 80%;
     background-color: transparent;
     position: relative;  
-    top: 40px;
+    top: 120px;
     border: solid 3px #fc815c;
     text-align: center;
     border-radius: 8px;
@@ -638,15 +638,14 @@ canvas {
     width: max-content;
     margin: 0 auto;
     padding: 0.2em 0.5em;
-    border: 2px solid #fc815c;;
-    border: 2px solid #fc815c;;
+    border: 2px solid #47afa1;
+    border: 2px solid #47afa1;
     border-radius: 8px 8px 8px 8px;
     font-size: 2em;
     background-color: var(--light);
     position: relative;
     z-index: 5;
-    color: #fc815c;;
-    color: #fc815c;;
+    color: #47afa1;
     top: 0px;
 }
 
@@ -656,14 +655,14 @@ canvas {
     background-color: transparent;
     position: relative;  
     top: 20px;
-    border: solid 3px #fc815c;
+    border: solid 3px #47afa1;;
     text-align: center;
     border-radius: 8px;  
     margin: 0 auto; 
 }
 
 .experiencia h2{
-    color: #47afa1;;
+    color: #47afa1;
     margin-top: 0px;
     font-size: 25px;
 }
@@ -1126,15 +1125,13 @@ canvas {
     width: max-content;
     margin: 0 auto;
     padding: 0.2em 0.5em;
-    border: 2px solid #fc815c;;
-    border: 2px solid #fc815c;;
+    border: 2px solid #47afa1;
     border-radius: 8px 8px 8px 8px;
     font-size: 1.3em;
     background-color: var(--light);
     position: relative;
     z-index: 5;
-    color: #fc815c;;
-    color: #fc815c;;
+    color: #47afa1;;
     top: 30px;
 }
 
@@ -1143,7 +1140,7 @@ canvas {
     background-color: transparent;
     position: relative;  
     top: 45px;
-    border: solid 3px #fc815c;
+    border: solid 3px #47afa1;;
     text-align: center;
     border-radius: 8px;
     margin: 0 auto;
@@ -1153,7 +1150,7 @@ canvas {
 
 
 .experiencia h2{
-    color: #fc815c;
+    color: #47afa1;
     margin-top: 20px;
     font-size: 18px;
 }
