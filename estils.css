@@ -1131,7 +1131,8 @@ canvas {
     background-color: var(--light);
     position: relative;
     z-index: 5;
-    color: #47afa1;;
+    color:#47afa1;
+    z-index: 10;
     top: 30px;
 }
 
@@ -1140,13 +1141,11 @@ canvas {
     background-color: transparent;
     position: relative;  
     top: 45px;
-    border: solid 3px #47afa1;;
+    border: solid 3px #47afa1;
     text-align: center;
     border-radius: 8px;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
-
 
 
 .experiencia h2{
@@ -1158,6 +1157,7 @@ canvas {
 .experiencia p{
     font-size: 16px;
 }
+
 
 /*Proyectos*/
 .projects h2 {
@@ -1184,6 +1184,7 @@ canvas {
     position: relative;
     overflow: hidden;
     float: left;
+    top: 60px;
 
     
 }
@@ -1205,8 +1206,8 @@ canvas {
 }
 
 .cards {
-    width: 10rem;
-    height: 16rem;
+    width: 13rem;
+    height: 19rem;
     display: inline-flex; /* Use flexbox for alignment */
     flex-direction: column; /* Column direction */
     align-items: center; /* Center items */
