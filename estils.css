@@ -61,7 +61,6 @@ header {
     text-align: center;
     position: relative;
     height: 650px;
-    padding: 20px;
     width: 100%;
     overflow: hidden;
 
@@ -121,6 +120,7 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: ;
 }
 
 .animated-button {
@@ -403,6 +403,7 @@ canvas {
 #contacte{
     width: 100%;
     overflow: hidden;
+    background-color: ;
 }
  
 #contacte h1{
@@ -435,6 +436,7 @@ canvas {
 
 /*Footer*/
 footer{
+    width: 100%;
     text-align: center;
     background-color: black;
     color: #fff;
