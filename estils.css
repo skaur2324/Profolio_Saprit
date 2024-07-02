@@ -14,15 +14,24 @@ label{
     display:none;
 }
 
+nav  img{
+    width: 60px;
+    height: 50px;
+    background-color: ;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
 
 /*menu*/
 nav{
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color:white;
     position: fixed;
     line-height: 50px;
     z-index: 10;
+    float: left;
 }
 
 nav ul {
@@ -32,6 +41,9 @@ nav ul {
     display: flex;
     justify-content: center;
     line-height: 60px;
+    background-color: ;
+    width: 93%;
+    float: right;
 }
 
 nav ul li {
@@ -40,13 +52,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #1788ae;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: #1788ae;
+    color: gray;
 }
 
 nav ul li a:active{
@@ -460,14 +472,23 @@ label{
     display:none;
 }
 
+nav  img{
+    width: 60px;
+    height: 50px;
+    background-color: ;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
 /*menu*/
 nav{
     width: 100%;
-    height: 80px;
-    background-color: black;
+    height: 60px;
+    background-color: white;
     position: fixed;
-    line-height: 80px;
+    line-height: 60px;
     z-index: 10;
+    float: left;
 }
 
 nav ul {
@@ -476,21 +497,25 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    width: 90%;
+    float: right;
+    background-color: ;
+    
 }
 
 nav ul li {
     margin: 0 15px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #1788ae;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: #1788ae;
+    color: gray;
 }
 
 nav ul li a:active{
