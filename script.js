@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const checkbox = document.querySelector('label input[type="checkbox"]');
+    const links = document.querySelectorAll('label ul a');
+
+    links.forEach(link => {
+        link.addEventListener('click', function() {
+            checkbox.checked = false;
+        });
+    });
+
     const header = document.querySelector('header');
     const canvas = document.querySelector("#canvas");
     const ctx = canvas.getContext("2d");
@@ -123,6 +132,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     init();
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
